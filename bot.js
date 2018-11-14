@@ -46,7 +46,7 @@ client.on('ready', () => {
  
  
 const adminprefix = "Q"; 
-const devs = ['427476285166452748'];
+const devs = ['470320463021604864'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
@@ -75,4 +75,4 @@ if (message.content.startsWith(adminprefix + 'st')) {
  
  
  
-client.login("NDI3NDc2Mjg1MTY2NDUyNzQ4.DqPFvQ.hTFray4v4wZn_4awPI69u6KnIO8");
+client.login("NDcwMzIwNDYzMDIxNjA0ODY0.Ds3lZA.-ty51D4v77mX_ZPpRWwwxE9DeQU");
